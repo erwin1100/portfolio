@@ -110,6 +110,19 @@ body{
 }
 
 /* ========================= Responsive ================================== */
+@media (max-width: 1279px){
+    .main-con {
+        position: relative;
+        height: 220vh;
+    }
+    .box-con {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}
 @media (max-width: 780px){
     .main-con{
         height: auto;
@@ -132,6 +145,7 @@ body{
     }
 }
 
+/* ============================================ */
 @media (max-width: 480px){
     .main-con{
         height: auto;
