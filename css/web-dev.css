@@ -113,7 +113,7 @@ body{
 @media (max-width: 1279px){
     .main-con {
         position: relative;
-        height: 220vh;
+        height: fit-content;
     }
     .box-con {
         position: relative;

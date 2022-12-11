@@ -114,9 +114,15 @@ body{
 
 
 /* ========================= Responsive ================================== */
+@media (max-width: 1279px){
+    .main-con {
+        position: relative;
+        height: fit-content;
+    }
+}
 @media (max-width: 780px){
     .main-con{
-        height: auto;
+        height: fit-content;
     }
     .title-con h1{
         padding: 30px;
@@ -142,7 +148,7 @@ body{
     /* ------------------------ */
     @media (max-width: 480px){
         .main-con{
-            height: auto;
+            height: fit-content;
         }
         .title-con h1{
             font-size: 28px;

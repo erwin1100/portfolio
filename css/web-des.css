@@ -118,6 +118,12 @@ body{
 
 
 /* ========================= Responsive ================================== */
+@media (max-width: 1279px){
+    .main-con {
+        position: relative;
+        height: fit-content;
+    }
+}
 @media (max-width: 780px){
     .main-con{
         height: auto;
