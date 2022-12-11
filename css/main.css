@@ -534,6 +534,40 @@ header ul li a:hover{
 }
 
 /* =============================== Responsive ============================ */
+@media (max-width: 1279px){
+    .main {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .main img {
+        position: relative;
+        width: 35%;
+        margin: 0px 50px;
+    }
+    .box-con {
+        position: relative;
+        display: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .skills-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+        position: relative;
+        margin: 14px 30px;
+    }
+}
+
+
+/* =========================================== */
 @media (max-width: 780px){
     *{
         padding: 0;
