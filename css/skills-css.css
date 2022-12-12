@@ -67,6 +67,12 @@ body{
 }
 
 /* =============================== Responsive ============================ */
+@media (max-width: 1279px){
+    .main-text h1{
+        font-size: 36px;
+    }
+}
+
 @media (max-width: 780px){
     .main-text h1 {
         font-size: 34px;
@@ -84,6 +90,7 @@ body{
         transition: all .3s ease;
     }
 }
+
 @media (max-width: 480px){
     .main-text h1 {
         font-size: 22px;
